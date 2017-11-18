@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "69309905087",
+    "project_id": "firebase-inkcue"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:69309905087:android:e1c47043c212816b",
+        "android_client_info": {
+          "package_name": "com.example.android.inkcue"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "69309905087-5m3j0j3718610pch56n2719bq2dn13nv.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "69309905087-osisj2hu63mf4a7o51pt7femnrhqn3ai.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.inkcue",
+            "certificate_hash": "96312abc91eb2c4f12671f313e4c4ef993ca0922"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGhD0_DZZW1niwSUwZqmltxR-5uNEjeso"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

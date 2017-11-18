@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom"
+    android:layout_weight="10"
+    tools:context="com.example.android.inkcue.activities.Login">
+
+    <ImageView
+        android:layout_gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo_black"
+        android:layout_marginTop="39dp" />
+    <FrameLayout
+        android:layout_weight="3.7"
+        android:layout_gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@id/pager">
+
+        <android.support.v4.view.ViewPager
+            android:paddingBottom="24dip"
+            android:paddingTop="24dip"
+            android:layout_marginTop="7dip"
+            android:id="@+id/ppager"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+        </android.support.v4.view.ViewPager>
+
+    </FrameLayout>
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:paddingBottom="7dip"
+        android:weightSum="1">
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_weight="0.5"
+            android:text="Login"
+            android:textStyle="normal"
+            android:textAllCaps="false"
+            android:textColor="@color/main"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/register"
+            android:textStyle="normal"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_weight="0.5"
+            android:text="Register"
+            android:textAllCaps="false"
+            android:textColor="@color/main"
+            android:textSize="20sp" />
+
+
+    </LinearLayout>
+</LinearLayout>

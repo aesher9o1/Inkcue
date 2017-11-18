@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_home"
+            android:title="Dashboard" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_dashboard"
+            android:title="View Profile"/>
+        <item android:id="@+id/fingure_print"
+            android:icon="@drawable/ic_fingerprint"
+            android:title="Biometric Authentication"/>
+        <item
+            android:icon="@drawable/ic_event"
+            android:title="Events"/>
+    </group>
+
+   <group
+
+      android:checkableBehavior="single"
+       android:id="@+id/menu_bottom"
+       >
+       <item
+           android:id="@+id/nav_share"
+           android:icon="@drawable/ic_menu_share"
+           android:title="Share" />
+       <item
+           android:id="@+id/help"
+           android:icon="@drawable/ic_help"
+           android:title="Help and Feedback"/>
+   </group>
+
+</menu>

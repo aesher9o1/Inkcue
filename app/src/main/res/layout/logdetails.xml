@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <android.support.design.widget.TextInputLayout
+
+        android:layout_marginLeft="40dip"
+        android:layout_marginRight="40dip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp">
+        <EditText android:id="@+id/logname"
+            android:drawableStart="@drawable/ic_dashboard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="User Name" />
+    </android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_marginLeft="40dip"
+        android:layout_marginRight="40dip"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp">
+        <EditText android:id="@+id/logpassword"
+            android:drawableStart="@drawable/ic_lock"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:hint="Password"
+            />
+    </android.support.design.widget.TextInputLayout>
+
+
+
+    <Button
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/proceed"
+        android:layout_marginTop="17dip"
+        android:layout_width="170dip"
+        android:textSize="17sp"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:textColor="@color/main"
+        android:text="Continue"/>
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Or sign in using"
+        android:gravity="center"
+        android:textSize="19sp"
+        android:layout_marginTop="12dip"/>
+
+    <LinearLayout
+        android:layout_marginTop="15dip"
+        android:gravity="center"
+        android:layout_marginBottom="15dip"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:id="@+id/Facebook_button"
+            android:layout_alignParentBottom="true"
+            android:src="@drawable/facebook"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="7dip"
+            android:layout_marginTop="3dip"/>
+
+        <android.support.design.widget.FloatingActionButton
+            android:layout_alignParentBottom="true"
+            android:id="@+id/Google_button"
+            android:layout_marginStart="21dip"
+            android:layout_width="wrap_content"
+            android:src="@drawable/google"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="7dip"
+            android:layout_marginTop="3dip"/>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

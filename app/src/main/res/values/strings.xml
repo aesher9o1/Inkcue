@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name">Inkcue</string>
+    <string name="action_settings">Settings</string>
+
+
+
+
+    <!-- Strings related to login -->
+    <string name="facebook_app_id">1798547673508764</string>
+
+
+
+
+    <!--Test string -->
+    <string name="Teststring">Iodo alkanes on reacting with silver nitrite give nitro compounds. This method will not give good yield for nitro benzene. This method will not give good yield for nitro benzene. But all the aliphatic nitro compounds can be prepared by this method.
+For example iodoethane on treating with silver nitrate gives nitro ethane.</string>
+
+
+
+
+    <!-- Strings related to shortcuts-->
+    <string name="Create">Create Idea</string>
+    <string name="View">View Ideas</string>
+    
+    
+    
+
+
+    <!-- Create contributors string-->
+    <string name="Title">Title of the project</string>
+    <string name="Contributors">Name of contributors</string>
+    <string name="Catagory">Category</string>
+    <string name="DETAILS">If there are multiple contributors separate them with commas</string>
+    <string name="HINT">hello in this section you do ajkghajkghweuishdvjsb bsfguh fiqge  sdfadkj bvsjkbv uie  vs bvjksdjkweh fjskdj h</string>
+
+
+
+
+
+
+
+
+    <!-- create idea -->
+    <string name="Previous">....Previous</string>
+    <string name="Next">Next....</string>
+    <string name="speech_prompt">Ink Your Ideas</string>
+    <string name="speech_not_supported">Sorry! Your device doesn\'t support speech input</string>
+
+
+
+    <!-- Create idea buttons-->
+    <string name="S1">Introduction</string>
+    <string name="S2">Intention</string>
+    <string name="S3">Description</string>
+    <string name="S4">Business Opportunities</string>
+    <string name="S5">Research</string>
+    <string name="S6">Future Scope</string>
+    <string name="S7">Summary</string>
+    <string name="S8">References</string>
+
+    
+    <!-- these are the strings of degrees that the user will have -->
+    <string-array name="Degrees">
+        <item>+10</item>
+        <item>Graduation</item>
+        <item>Post Graduation</item>
+        <item>Doctorate</item>
+    </string-array>
+
+
+
+
+
+    <!-- Test string-->
+    <string name="Test">A sequence of animation instructions defines the tween animation, defined by either XML or Android code. </string>
+
+    <!-- Fingure Print Scanner-->
+    <string name="title_fingerprint">One-touch Sign In</string>
+       <string name="desc_fingerprint">Please place your fingertip on the scanner to verify your identity</string>
+       <string name="note">(Fingerprint sign in makes your app login much faster. Your device should have at least one fingerprint registered in device settings)</string>
+       <string name="title_activity_home">Fingerprint</string>
+       <string name="activity_home_desc">You have successfully logged in with fingerprint authentication</string>
+       <string name="activity_home_note">Close and re-open the app to see the fingerprint auth screen again</string>
+
+
+
+
+    <!-- Transaction Strings-->
+        <string name="event_desc">GOTO_EVENT_DESC</string>
+
+</resources>

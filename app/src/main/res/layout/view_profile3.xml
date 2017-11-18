@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/human"
+            android:layout_marginTop="20dip"
+            android:layout_width="120dip"
+            android:layout_height="120dip"
+            android:src="@drawable/asset_human"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_marginTop="4dip"
+            android:id="@+id/user_name"
+            android:layout_below="@+id/human"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:text="User Name"
+            android:gravity="center_horizontal"
+            android:textSize="24sp"
+            />
+
+
+
+        <TextView
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dip"
+            android:id="@+id/Title"
+            android:layout_below="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:textStyle="bold"
+            android:text="Experience &amp; Interests"
+            android:gravity="center_horizontal"
+            android:textSize="18sp"
+            />
+        <View
+            android:id="@+id/view"
+            android:layout_marginLeft="39dip"
+            android:layout_marginRight="39dip"
+            android:background="@color/main"
+            android:layout_below="@+id/user_name"
+            android:layout_width="match_parent"
+            android:layout_height="2dip"/>
+
+
+
+        <LinearLayout
+            android:id="@+id/nothing"
+            android:layout_below="@+id/Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dip"
+                android:gravity="center_horizontal"
+                android:weightSum="4">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="50dip"
+                    android:layout_marginTop="3dip"
+                    android:fontFamily="sans-serif"
+                    android:paddingTop="2dip"
+                    android:text="Companany \nWorked in:"
+                    android:textSize="16sp" />
+
+                <LinearLayout
+
+                    android:layout_width="170dip"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="3dip"
+                    android:layout_marginStart="2dp"
+                    android:orientation="vertical"
+                    android:paddingBottom="2dip"
+                    android:paddingTop="2dip">
+
+                    <EditText
+                        android:layout_width="170dip"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dip"
+                        android:background="@drawable/edittectbox"
+                        android:hint="College"
+                        android:inputType="text"
+                        android:maxLength="13"
+                        android:maxLines="1"
+                        android:paddingBottom="2dip"
+                        android:paddingTop="2dip"
+                        android:textAlignment="center"
+                        android:textSize="@dimen/about_us_text_size" />
+
+                    <EditText
+
+                        android:layout_width="170dip"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dip"
+                        android:background="@drawable/edittectbox"
+                        android:hint="Specialization"
+                        android:inputType="text"
+                        android:maxLength="13"
+                        android:maxLines="1"
+                        android:paddingBottom="2dip"
+                        android:paddingTop="2dip"
+                        android:textAlignment="center"
+                        android:textSize="@dimen/about_us_text_size" />
+
+                    <EditText
+                        android:layout_width="170dip"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="3dip"
+                        android:layout_marginTop="2dip"
+                        android:background="@drawable/edittectbox"
+                        android:inputType="text"
+                        android:maxLines="1"
+                        android:paddingBottom="2dip"
+                        android:paddingTop="2dip"
+                        android:textAlignment="center"
+                        android:textSize="@dimen/about_us_text_size" />
+
+                    <LinearLayout
+                        android:layout_width="170dip"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="2dp"
+                        android:layout_marginTop="3dip"
+                        android:orientation="horizontal"
+                        android:paddingBottom="2dip"
+                        android:weightSum="2">
+
+                        <TextView
+                            android:id="@+id/textView1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.99"
+                            android:background="@drawable/edittextbox_semi"
+                            android:gravity="center"
+                            android:hint="From"
+                            android:paddingBottom="2dip"
+                            android:paddingTop="2dip" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.99"
+                            android:background="@drawable/edittextbox_semi_invert"
+                            android:gravity="center"
+                            android:hint="To"
+                            android:paddingBottom="2dip"
+                            android:paddingTop="2dip" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+            android:layout_marginTop="2dip"
+            android:layout_gravity="end"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/container"/>
+
+            <LinearLayout
+                android:layout_marginTop="-4dip"
+                android:layout_marginEnd="30dip"
+                android:gravity="end"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/adding_View"
+                    android:layout_width="40dip"
+                    android:layout_height="40dip"
+                    android:layout_marginEnd="12dip"
+                    android:layout_gravity="end"
+                    android:src="@drawable/ic_add_circle"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_marginTop="3dip"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="4"
+                android:gravity="center_horizontal"
+                >
+                <TextView
+
+                    android:paddingTop="2dip"
+                    android:layout_marginEnd="70dip"
+                    android:layout_marginTop="3dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:text="Projects:"
+                    android:textSize="16sp"
+                    />
+
+                <LinearLayout
+                    android:layout_width="170dip"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="3dip"
+                    android:layout_marginStart="12dp"
+                    android:orientation="vertical"
+                    android:paddingBottom="2dip"
+                    android:paddingTop="2dip">
+
+                    <EditText
+                        android:layout_width="170dip"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dip"
+                        android:background="@drawable/edittectbox"
+                        android:hint="College"
+                        android:inputType="text"
+                        android:maxLength="13"
+                        android:maxLines="1"
+                        android:paddingBottom="2dip"
+                        android:paddingTop="2dip"
+                        android:textAlignment="center"
+                        android:textSize="@dimen/about_us_text_size" />
+
+                    <EditText
+
+                        android:layout_width="170dip"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dip"
+                        android:background="@drawable/edittectbox"
+                        android:hint="Specialization"
+                        android:inputType="text"
+                        android:maxLength="13"
+                        android:maxLines="1"
+                        android:paddingBottom="2dip"
+                        android:paddingTop="2dip"
+                        android:textAlignment="center"
+                        android:textSize="@dimen/about_us_text_size" />
+
+                    <android.widget.Spinner
+                        android:layout_marginTop="3dip"
+                        android:textAlignment="center"
+                        android:id="@+id/spinner"
+                        android:paddingTop="2dip"
+                        android:paddingBottom="2dip"
+                        android:spinnerMode="dialog"
+                        android:layout_width="170dip"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/edittectbox"
+                        android:textSize="13sp" />
+
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="2dip"
+                android:layout_gravity="end"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/container2"/>
+            <LinearLayout
+                android:layout_marginTop="-4dip"
+                android:layout_marginEnd="30dip"
+                android:gravity="end"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_marginEnd="12dip"
+                    android:id="@+id/adding_View1"
+                    android:layout_width="40dip"
+                    android:layout_height="40dip"
+                    android:layout_gravity="end"
+                    android:src="@drawable/ic_add_circle"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="5dip"
+                    android:layout_marginTop="3dip"
+                    android:fontFamily="sans-serif"
+                    android:maxLength="13"
+                    android:text="Intrests:"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:layout_width="170dip"
+                    android:layout_height="100dip"
+                    android:layout_marginBottom="3dip"
+                    android:layout_marginStart="88dip"
+                    android:layout_marginTop="3dip"
+                    android:background="@drawable/edittectbox"
+                    android:inputType="text"
+                    android:gravity="start"
+                    android:paddingStart="4dip"
+                    android:paddingEnd="4dip"
+                    android:paddingBottom="2dip"
+                    android:paddingTop="2dip"
+                    android:textSize="@dimen/about_us_text_size" />
+
+            </LinearLayout>
+
+
+
+
+
+
+
+            <Button
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/next_fragment"
+                android:layout_marginBottom="25dip"
+                android:paddingStart="14dip"
+                android:paddingEnd="14dip"
+                android:background="@drawable/button"
+                android:textColor="@color/main"
+                android:layout_marginTop="20dip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Save and Continue"
+                android:textAllCaps="false"/>
+
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+</ScrollView>

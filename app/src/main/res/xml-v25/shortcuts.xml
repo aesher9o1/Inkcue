@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+
+    <shortcut
+        android:shortcutId="view"
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher"
+        android:shortcutShortLabel="@string/View"
+        >
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.example.android.inkcue"
+            android:targetClass="com.example.android.inkcue.activities.MainActivity"/>
+    </shortcut>
+
+
+    <shortcut
+        android:shortcutId="compose"
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher"
+        android:shortcutShortLabel="@string/Create"
+        >
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.example.android.inkcue"
+            android:targetClass="com.example.android.inkcue.activities.MainActivity"/>
+        </shortcut>
+
+
+
+
+</shortcuts>
